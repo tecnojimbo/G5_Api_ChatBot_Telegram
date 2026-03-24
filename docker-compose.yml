@@ -1,0 +1,27 @@
+version: '3.8'
+
+services:
+  # SERVICIO 1: La API Flask (Backend)
+  api-tecjims:
+    build: .
+    container_name: g5_api_flask
+    # Ejecuta solo la API en este contenedor
+    command: python app.py
+    ports:
+      - "5000:5000"
+    volumes:
+      - .:/app
+    restart: always
+
+  # SERVICIO 2: El Bot de Telegram (Frontend/Cliente)
+  bot-tecjims:
+    build: .
+    container_name: g5_bot_telegram
+    # Ejecuta solo el Bot en este contenedor
+    command: python tecjims_bot.py
+    # CIBERSEGURIDAD: El bot espera a que la API esté lista
+    depends_on:
+      - api-tecjims
+    volumes:
+      - .:/app
+    restart: always
