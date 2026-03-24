@@ -4,7 +4,8 @@ import requests
 from telebot import types
 
 TOKEN = '8612400251:AAFoCRt3YuzJOKZmIIbMnjRxtblIvxog-tk'
-API_URL = "http://127.0.0.1:5000/api"
+# API_URL = "http://127.0.0.1:5000/api"
+API_URL = "http://api-tecjims:5000/api"
 bot = telebot.TeleBot(TOKEN)
 
 # Memoria temporal para el carrito de cada usuario
