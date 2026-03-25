@@ -42,3 +42,30 @@ dev-guerron: Desarrollo del archivo datos.json donde se encuentra los productos 
 
 ![Ejecucion app.py](img/image-5.png)
 
+
+Parte 3 Contenerización.
+
+Para proceder a ejecutar los comandos de docker se crearon dos archivos 
+Dockerfile
+![Ejecucion app.py](img/image14.png)
+
+docker-compose.yml
+![Ejecucion app.py](img/image15.png)
+
+
+Ejecucion de Docker con comando docker-compose up --build
+![Ejecucion app.py](img/image12.png)
+
+
+Ejecución de Docker en aplicación
+![Ejecucion app.py](img/image13.png)
+
+Parte 4 Curl
+![Ejecucion app.py](img/image-9.png) 
+
+![Ejecucion app.py](img/image-10.png) 
+
+![Ejecucion app.py](img/image11.png)
+
+Conclusión
+Este proyecto fue un gran reto para el Grupo 5, donde logramos unir nuestras habilidades para crear una solución tecnológica real. Más allá de las herramientas como Docker o Flask, aprendimos el valor de trabajar en equipo de forma organizada a través de GitHub. Lograr que un bot de Telegram hable con nuestra propia API y que todo funcione de forma segura en la nube nos da la confianza de que estamos listos para enfrentar desafíos técnicos modernos, siempre enfocados en la seguridad y la eficiencia para el usuario final.
