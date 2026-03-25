@@ -14,10 +14,10 @@ Se ejecuta localmente archivos app.py y tecjims_bot.py
 
 Pruebas exitosas de curl, validación de EndPoints
 METODO GET
-![Ejecucion app.py](img/image9.png) 
+![Ejecucion app.py](img/image-9.png) 
 
 METODO POST
-![Ejecucion app.py](img/image10.png) 
+![Ejecucion app.py](img/image-10.png) 
 
 VALIDACIÓN DE ERROR 400
 ![Ejecucion app.py](img/image11.png)
