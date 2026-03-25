@@ -25,11 +25,11 @@ VALIDACIÓN DE ERROR 400
 
 
 Se crea el Boot y genera un Token para ser utilizado en el proyecto.
-![Ejecucion app.py](img/image8.png)
+![Ejecucion app.py](img/image-8.png)
 
 El API se lo integra con un chatBoot de Telegram
 
-![Ejecucion app.py](img/image-6.png) ![Ejecucion app.py](img/image7.png)
+![Ejecucion app.py](img/image-6.png) ![Ejecucion app.py](img/image-7.png)
 
 
 Parte 2 – Uso de Branches (GitHub)
